@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ツExƚαȥყ - SynaRP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@preline/preline@2.0.0/dist/preline.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <base target="_self">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f0f1a;
+            color: #e2e2e2;
+        }
+        .gradient-text {
+            background: linear-gradient(45deg, #9c27b0, #e91e63);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(45deg, #1a0f1a, #1a0f1a);
+        }
+        .social-icon {
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+        .discord-icon:hover {
+            color: #5865F2;
+        }
+        .tiktok-icon:hover {
+            color: #25F4EE;
+        }
+        .btn-primary {
+            background: linear-gradient(45deg, #9c27b0, #e91e63);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(156, 39, 176, 0.3);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="gradient-bg min-h-screen">
+        <!-- Header -->
+        <header class="py-6 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl font-bold gradient-text">ツExƚαȥყ</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://www.tiktok.com/@extazy466?is_from_webapp=1&sender_device=pc" target="_blank" class="social-icon tiktok-icon text-2xl text-white hover:text-pink-400">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://discord.gg/synarp" target="_blank" class="social-icon discord-icon text-2xl text-white hover:text-blue-500">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="py-12 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                        <span class="gradient-text">Bienvenue sur mon univers</span>
+                    </h1>
+                    <p class="text-lg text-gray-300 mb-8">
+                        Je suis ツExƚαȥყ, passionné par l'univers RP sur FiveM. Rejoignez notre communauté sur Discord et suivez mes aventures sur TikTok.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="https://discord.gg/synarp" target="_blank" class="btn-primary text-white font-bold py-3 px-6 rounded-lg text-center">
+                            <i class="fab fa-discord mr-2"></i> Rejoindre le Discord
+                        </a>
+                        <a href="https://www.tiktok.com/@extazy466?is_from_webapp=1&sender_device=pc" target="_blank" class="bg-black text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-900 transition duration-300 text-center">
+                            <i class="fab fa-tiktok mr-2"></i> Suivre sur TikTok
+                        </a>
+                    </div>
+                    <div class="mt-8 p-4 bg-gray-800 rounded-lg">
+                        <p class="text-sm text-gray-300">
+                            <i class="fas fa-info-circle mr-2 text-purple-400"></i> 
+                            Pour montrer votre soutien, ajoutez <span class="font-bold">.gg/synarp</span> dans votre statut Discord !
+                        </p>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 lg:pl-12">
+                    <img src="https://cdn.discordapp.com/attachments/1366886458333462537/1378357086995484763/BanniereSyna.png?ex=683c4e92&is=683afd12&hm=9dbbcb33d0e5c5d204a7161112fd798813c06dab93802161be86509aa4684842&" alt="Bannière SynaRP" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900 bg-opacity-50">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12 gradient-text">Découvrez notre univers</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
+                        <div class="text-4xl mb-4 text-purple-400">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">FiveM RP</h3>
+                        <p class="text-gray-300">Une expérience de jeu immersive avec un serveur RP de qualité et une communauté active.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
+                        <div class="text-4xl mb-4 text-pink-400">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Communauté</h3>
+                        <p class="text-gray-300">Rejoignez une communauté bienveillante et passionnée par l'univers du roleplay.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition duration-300">
+                        <div class="text-4xl mb-4 text-blue-400">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Contenu</h3>
+                        <p class="text-gray-300">Suivez mes aventures RP et découvrez des moments inédits sur ma chaîne TikTok.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-800 mt-12">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="mb-4 md:mb-0">
+                        <span class="text-xl font-bold gradient-text">ツExƚαȥყ</span>
+                    </div>
+                    <div class="flex space-x-6">
+                        <a href="https://www.tiktok.com/@extazy466?is_from_webapp=1&sender_device=pc" target="_blank" class="social-icon tiktok-icon text-xl text-white hover:text-pink-400">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://discord.gg/synarp" target="_blank" class="social-icon discord-icon text-xl text-white hover:text-blue-500">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-6 text-center text-gray-400 text-sm">
+                    <p>© 2023 ツExƚαȥყ. Tous droits réservés.</p>
+                    <p class="mt-2">N'oubliez pas d'ajouter <span class="font-bold">.gg/synarp</span> dans votre statut Discord !</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Gestion des clics sur les liens
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                if (link.getAttribute('target') === '_blank') {
+                    // Laisser le navigateur gérer les liens externes
+                    return;
+                }
+                e.preventDefault();
+                // Ici vous pourriez ajouter une logique de navigation SPA
+                console.log('Navigation vers:', link.href);
+            });
+        });
+
+        // Animation au chargement
+        document.addEventListener('DOMContentLoaded', () => {
+            const elements = document.querySelectorAll('section, header, footer');
+            elements.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                setTimeout(() => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, 100 + (index * 100));
+            });
+        });
+    </script>
+</body>
+</html>
